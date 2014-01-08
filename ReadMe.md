@@ -13,6 +13,8 @@ using Magana;
 ...
     List<PropertyInfo> exportableProperties = 
 	Exportable.ValidProperties(typeof(<Class>), "<PropertyA>", "<PropertyB>", "<PropertyZ>", "<PropertyC>");
+	// OR
+	Exportable.ValidProperties(typeof(<Class>), new string[] {"<PropertyA>", "<PropertyB>", "<PropertyZ>", "<PropertyC>"});
     // exportableProperties will contain a list PropertyInfo items for the properties named
     // "PropertyA", "PropertyB", "PropertyZ" and "PropertyC" in the original order
 
