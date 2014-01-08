@@ -9,7 +9,7 @@ The library works by caching the desired valid properties of a class, thereby
 removing the need to re-reflect through the types properties on multiple runs.
 
 ```csharp
-using Magana;
+using Arrival;
 ...
     List<PropertyInfo> exportableProperties = 
 	Exportable.ValidProperties(typeof(<Class>), "<PropertyA>", "<PropertyB>", "<PropertyZ>", "<PropertyC>");
