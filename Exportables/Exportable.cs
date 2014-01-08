@@ -1,4 +1,4 @@
-namespace Magana
+namespace Arrival
 {
     using System;
     using System.Collections.Generic;

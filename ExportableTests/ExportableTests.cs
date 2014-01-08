@@ -1,8 +1,8 @@
-namespace Magana.Tests
+namespace Arrival.Tests
 {
     using System;
     using NUnit.Framework;
-    using Magana;
+    using Arrival;
 
     [TestFixture]
     public class ExportableTests
