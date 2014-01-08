@@ -1,0 +1,6 @@
+*.userprefs
+bin/
+obj/
+*.xml
+*StyleCop*
+test-results/
